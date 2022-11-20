@@ -8,25 +8,10 @@ import Advert from './components/Advert/Advert';
 
 function App() {
 
-  // useEffect(() => {
-  //   fetch("http://turgenevmus.ru/wp-json/wp/v2/posts")
-  //     .then(res => res.json())
-  //     .then(
-  //       (result) => {
-  //     console.log(result)
-  //       }
-  //     )
-  // }, [])
-
   return (
     <div className="App">
-      {/* <div className='layout'>Нвости ООГЛМ И.И. Тургенева</div> */}
       <Header></Header>
-      {/* <div className='advert'>РЕКЛАМА</div> */}
       <Advert></Advert>
-      {/* <div className='news'>nnn
-      <Post></Post>
-      </div> */}
       <News></News>
     </div>
   );
