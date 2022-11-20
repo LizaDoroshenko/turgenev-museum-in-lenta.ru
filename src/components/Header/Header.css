@@ -1,0 +1,13 @@
+.header {
+  width: 100%;
+  min-width: 1280px;
+  height: 270px;
+  background-color: #292929;
+  z-index: 0;
+}
+
+.header__title {
+  color: white;
+  padding: 5px 250px;
+  font-size: 35px;
+}

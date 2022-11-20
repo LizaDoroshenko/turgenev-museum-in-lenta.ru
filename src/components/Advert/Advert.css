@@ -1,0 +1,12 @@
+.advert {
+  position: absolute;
+  top: 90px;
+  background-color: rgb(56, 86, 145);
+  width: 1200px;
+  height: 250px;
+  margin: 0 auto;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  border: 1px #000000 solid;
+}

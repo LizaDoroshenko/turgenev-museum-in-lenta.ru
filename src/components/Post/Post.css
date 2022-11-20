@@ -1,0 +1,21 @@
+.post {
+  border-bottom: 1px solid #eaeaea;
+  width: 280px;
+  padding: 12px 0px;
+}
+
+.post__title {
+    font: 400 16px/22px "Source Serif Pro Lenta", serif;
+    text-decoration: none;
+    color: #292929;
+    transition: color .2s ease-out;
+  }
+
+.post__title:hover {
+    color: #cc3333;
+  }
+
+.post__date {
+    font: 400 10px/14px Lato Lenta, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #999;
+}  

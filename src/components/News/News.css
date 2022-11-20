@@ -1,0 +1,19 @@
+.news {
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  width: 1200px;
+  position: absolute;
+  top: 340px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.news__posts {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 880px;
+  height: 520px;
+  border-bottom: 1px solid #eaeaea;
+}
